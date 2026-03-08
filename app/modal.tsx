@@ -1,9 +1,11 @@
+// router to navigate between screens
 import { Link } from 'expo-router';
 import { StyleSheet } from 'react-native';
 
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 
+// model screen dispalyed on top of nav stack
 export default function ModalScreen() {
   return (
     <ThemedView style={styles.container}>
