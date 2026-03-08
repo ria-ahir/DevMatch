@@ -70,6 +70,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="projectsFeed"
+        options={{
+          title: 'Feed',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="square.2.stack.3d" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="profile"
         options={{
           title: 'Profile',
