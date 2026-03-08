@@ -1,14 +1,18 @@
-import { Image } from 'expo-image';
+// UI screeen
+import { Image } from 'expo-image';  // image component
 import { Platform, StyleSheet } from 'react-native';
 
+// custom UI components
 import { HelloWave } from '@/components/hello-wave';
 import ParallaxScrollView from '@/components/parallax-scroll-view';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
 import { Link } from 'expo-router';
 
+// home screen displayed for the demo
 export default function HomeScreen() {
   return (
+    // scroll view
     <ParallaxScrollView
       headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
       headerImage={
@@ -78,6 +82,7 @@ export default function HomeScreen() {
   );
 }
 
+// styles used by this screen, make sure to use these throughout the project
 const styles = StyleSheet.create({
   titleContainer: {
     flexDirection: 'row',

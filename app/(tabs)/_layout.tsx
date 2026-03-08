@@ -1,3 +1,4 @@
+// expo router component for creating nav bar
 import { Tabs } from 'expo-router';
 import React from 'react';
 
@@ -10,13 +11,16 @@ export default function TabLayout() {
   const colorScheme = useColorScheme();
 
   return (
+    // main tab navigator, main feed
     <Tabs
       screenOptions={{
+        // to show which is active
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
         headerShown: false,
         tabBarButton: HapticTab,
       }}>
       <Tabs.Screen
+      // different screens listed below
         name="index"
         options={{
           title: 'Home',
