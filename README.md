@@ -1,6 +1,6 @@
 # DevMatch
 
-**Find your people. Build your project.**
+**Find your teammates. Build your project.**
 
 DevMatch is a student-only platform that helps students find collaborators, teammates, and project opportunities. It connects students with complementary skills so they can turn ideas into real projects.
 
