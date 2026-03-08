@@ -38,6 +38,20 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="chat"
+        options={{
+          title: 'Chat',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="bubble.left.and.bubble.right" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="chatAdaLovelace"
+        options={{
+          title: 'Ada',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="square.stack" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="profile"
         options={{
           title: 'Profile',
