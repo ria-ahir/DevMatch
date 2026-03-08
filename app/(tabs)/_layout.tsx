@@ -80,6 +80,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="editProfile"
+        options={{
+          title: 'Edit',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="pencil.circle.fill" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="profile"
         options={{
           title: 'Profile',
